@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.videos{
+    display: flex;
+    gap: 10px;
+}
+
+.thumbnail{
+    width: 200px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.thumbnail-btn{
+    position: relative;
+}
+
+.thumbnail-overlay{
+    position: absolute;
+    top: 0;
+    height: fit-content;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+        181deg,
+        rgba(0, 0, 0, 0) 65%,
+        rgb(67, 67, 67) 100%
+        );
+        background-blend-mode: normal;
+    }
+    
+    .thumbnail-img{
+        width: 100%;
+        height: 250px;
+    object-fit: none;
+}
+
+.thumbnail-title{
+    position: absolute;
+    width: 100%;
+    top: 75%;
+    text-align: left;
+    /* background: linear-gradient(
+    181deg,
+    rgba(0, 0, 0, 0) 65%,
+    rgb(77, 77, 77) 100%
+    );
+    background-blend-mode: normal; */
+    color: white;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.thumbnail-shop{
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    text-align: left;
+    background-blend-mode: normal;
+    color: white;
+}
+
+.video-detail{
+    margin: 40px;
+}
+
+
+.video{
+    margin: 20px 0;
+    width: 800px;
+    height: 400px;
+}
+
+.video-title{
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.product{
+    width: 100px;
+    height: 80px;
+}
+
+.product-photo{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border: 3px solid #319795;
+}
