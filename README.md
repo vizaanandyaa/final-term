@@ -18,3 +18,6 @@ to run
 
 and the app will run in your browser http://localhost:3000
 
+Check this out for the preview 
+https://drive.google.com/file/d/1CnOsyKfhdw9FHIjUpnhJ9QVgMtH4ZCLx/view?usp=sharing
+
